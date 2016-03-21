@@ -81,7 +81,7 @@ Author: Moncef Mhasni
 To break down the encryption method, the cracking tool can guess C, C+1, C+i,...N-2 or N correct matchings (Why not N-1? take a pencil a try to make N-1 matchings).
 
 To guess C+i correct matchings, there is C(N,i) ways to choose a character (regardless of its encoding) and D(N-i) ways to encode it.
-Where C is the binomial coefficient and D(i) derangement of i.
+Where C is the binomial coefficient and D(i) the derangement of i.
 
 The number of ways to guess exactly C+i correct matchings is C(N,i)*D(N-i). 
 
