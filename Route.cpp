@@ -1,14 +1,10 @@
 #include <bits/stdc++.h>
-#include <ctime >
-
 using namespace std;
 int solve(int x,int y){
-	int m=min(x,y);
-	return m + max(x-m,y-m);
+	return max(x,y);
 }
 int main()
 {
-int start_s=clock();
 
 	freopen("route.in","r",stdin);
 	freopen("o.out","w",stdout);
@@ -19,9 +15,5 @@ int start_s=clock();
 		int ans = solve(n,m);
 		cout<<ans<<endl;
 	}
-int stop_s=clock();
-
-
-cout << "time: " << (stop_s-start_s)/double(CLOCKS_PER_SEC)*1000 << endl;
 
 }
