@@ -13,17 +13,21 @@ Author: Saad Taame
 Starting from index i, look for the first girl j whose height is more than h(i) and print her index.
 Reiterate starting from j.
 
+Be carefull, indexing starts from 1 !
+
 ## B. Flower Graphs
 
 Difficulty: Moderate 
 
-Category: Graphs
+Category: Graphs,Combinatorics
 
 Author: Saad Taame 
 
 ### Solution :
 
 Let deg(i) be the degree of vertex i. If deg(i)>= d then i can be the center of C(deg(i),d) flower graphs, where C(n,k) is the Binomial coefficient.
+
+The answer to the problem is Sum C(deg(i),d)%mod.
 
 ## C. Shortest Route
 
@@ -66,7 +70,7 @@ Author: Moncef Mhasni
 ### Solution :
 
 Go over all the songs in the database. If P is a substring of a song in the database, print its name. 
-The songs may contain spaces, use getline. 
+The songs may contain spaces, read by line! 
 
 ## F. mdN Encryption
 
