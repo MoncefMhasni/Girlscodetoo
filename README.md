@@ -10,7 +10,7 @@ Author: Saad Taame
 
 ### Solution: 
 
-Starting from index i, look for the first girl j whose height is more than girl i and print her index.
+Starting from index i, look for the first girl j whose height is more than h(i) and print her index.
 Reiterate starting from j.
 
 ## B. Flower Graphs
